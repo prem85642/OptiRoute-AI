@@ -189,7 +189,7 @@ Built to demonstrate expert-level engineering practices in LLM cost optimization
 
 ## License
 
-This project is licensed under the MIT License - see details in LICENSE file.
+MIT License - Open source and free to use
 
 ---
 
