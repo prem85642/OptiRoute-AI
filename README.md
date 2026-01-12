@@ -197,7 +197,7 @@ This project is licensed under the MIT License - see details in LICENSE file.
 
 - **GitHub**: [@prem85642](https://github.com/prem85642)
 - **LinkedIn**: [Prem Kumar Tiwari](https://www.linkedin.com/in/prem-kumar-tiwari-9603aa232/)
-- **Portfolio**: [OptiRoute-AI](https://github.com/prem85642/OptiRoute-AI)
+
 
 **Built with**: FastAPI • Python • Prometheus • Grafana • HuggingFace API
 
