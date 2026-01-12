@@ -37,3 +37,9 @@ Thumbs.db
 
 # MyPy
 .mypy_cache/
+
+# Prometheus & Grafana (downloaded binaries)
+prometheus/
+grafana/
+grafana-v10.2.2/
+*.zip
