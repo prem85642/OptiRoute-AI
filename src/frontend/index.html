@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiRoute AI | Cost-Aware LLM Scaling</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="glass-panel sidebar">
+            <div class="logo-area">
+                <h2>OPTIROUTE AI</h2>
+            </div>
+
+            <div class="metrics-box">
+                <div class="metric-item">
+                    <h4>Total Spend (USD)</h4>
+                    <div class="value" id="total-cost">$0.000000</div>
+                </div>
+                <div class="metric-item">
+                    <h4>Request Latency</h4>
+                    <div class="value" id="last-latency">0 ms</div>
+                </div>
+                <div class="metric-item">
+                    <h4>Routing Mode</h4>
+                    <div class="value" style="color: var(--accent-color)">SMART AUTO</div>
+                </div>
+            </div>
+
+            <div class="status-indicator">
+                <div class="dot"></div>
+                <span>System Operational</span>
+            </div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="glass-panel chat-interface">
+            <div class="chat-header">
+                <h3>Live Inference Session</h3>
+                <div class="provider-badge">Multi-Model Engine Active</div>
+            </div>
+
+            <div class="chat-window" id="chat-window">
+                <div class="message ai">
+                    Hello! I am your Cost-Aware AI assistant.
+                    <br><br>
+                    • <b>Short queries</b> will be handled locally (Free/Cheap).
+                    <br>
+                    • <b>Long, complex queries</b> (>60 chars) will be routed to Hugging Face (High Performance).
+                    <span class="meta-info">System Ready</span>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type a message... (Try short vs long prompts)"
+                    autocomplete="off">
+                <button onclick="sendMessage()">SEND</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
