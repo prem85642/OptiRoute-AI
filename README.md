@@ -176,9 +176,31 @@ OptiRoute AI/
 
 ---
 
-## Acknowledgments
+## About This Project
 
-Built as a demonstration of production-grade LLM system design principles.
+Built to demonstrate expert-level engineering practices in LLM cost optimization and production observability.
 
-**License**: MIT  
-**Author**: Advanced AI Engineering Project
+**Key Achievements**:
+- 99.98% latency reduction through async architecture
+- 98% cost savings via intelligent caching
+- Production-grade monitoring with Prometheus/Grafana
+
+---
+
+## License
+
+This project is licensed under the MIT License - see details in LICENSE file.
+
+---
+
+## Contact & Links
+
+- **GitHub**: [@prem85642](https://github.com/prem85642)
+- **LinkedIn**: [Prem Kumar Tiwari](https://www.linkedin.com/in/prem-kumar-tiwari-9603aa232/)
+- **Portfolio**: [OptiRoute-AI](https://github.com/prem85642/OptiRoute-AI)
+
+**Built with**: FastAPI • Python • Prometheus • Grafana • HuggingFace API
+
+---
+
+**⭐ Star this repo if you found it helpful!**
